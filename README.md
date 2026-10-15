@@ -125,9 +125,30 @@ bandwidth does not limit it, so `q8` saves download size, not time. `q8` if size
 There is no 4-bit MLX version: 4-bit weights (group-wise affine, as in `mlx.nn.quantize`) changed the voice audibly
 (11 dB mel distance to fp32, voice tokens at 10 dB SNR) and failed the listening test.
 
-The large evaluation of the main card (320 German and 107 English utterances of unseen speakers, three seeds,
-Whisper large-v3, ECAPA, UTMOS, equivalence tests against the PyTorch reference) is being run for `fp32`, `fp16` and
-`q8`; this card will be updated with the results. ONNX fp32/fp16/int8 and PyTorch on a GPU passed it as equivalent.
+**Unseen speakers.** Each precision spoke the test sets of the main card's evaluation with the same noise as the
+PyTorch reference: 320 German utterances from 160 speakers and 107 English utterances from 4 speakers that the model
+never saw (three seeds each), and the 129-sentence German pronunciation suite. Whisper large-v3 (beam 5), ECAPA
+cosine to the voice prompt, UTMOS; 95 % bootstrap intervals over utterances. Rendered with MLX on a Linux CPU (the CPU
+path computes in float32 with the stored fp16/q8 weights).
+
+| Precision | German WER | German similarity | German UTMOS | English WER | Suite CER | Equivalent to the reference |
+|---|---|---|---|---|---|---|
+| PyTorch reference | 4.72 % [3.90, 5.59] | 0.659 | 3.30 | 2.12 % [1.40, 2.92] | 1.41 % | – |
+| `fp32` | 4.72 % [3.89, 5.58] | 0.659 | 3.30 | 2.12 % [1.40, 2.92] | 1.41 % | **yes** (all sets) |
+| `fp16` | 4.72 % [3.89, 5.58] | 0.659 | 3.30 | 2.12 % [1.40, 2.93] | 1.39 % | **yes** (all sets) |
+| `q8` | 4.86 % [4.02, 5.73] | 0.659 | 3.30 | 2.20 % [1.47, 3.02] | 1.38 % | **yes** (all sets) |
+
+"Equivalent" means that the 90 % interval of every paired difference lies inside the margins fixed before the
+measurement (±1.0 point WER, ±0.5 point CER, ±0.01 similarity, ±0.05 UTMOS). The largest difference is q8 in German,
++0.14 points WER [−0.07, 0.38].
+
+The same check with the arithmetic of a Mac GPU (fp16 and q8 computed in float16, emulated on the CPU; seed 0 only,
+paired with seed 0 of the reference) also finds both **equivalent** on all three sets:
+
+| Precision, float16 arithmetic | German WER | German UTMOS | English WER | Suite CER | ΔWER German (points) |
+|---|---|---|---|---|---|
+| `fp16` | 4.62 % [3.72, 5.57] | 3.31 | 2.11 % [1.28, 3.05] | 1.34 % | −0.05 [−0.22, 0.14] |
+| `q8` | 4.52 % [3.64, 5.46] | 3.31 | 2.15 % [1.34, 3.06] | 1.60 % | −0.15 [−0.40, 0.10] |
 
 ## How it works
 
