@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+.venv-mac-test/
+.pytest_cache/
+mac_test_results/

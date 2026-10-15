@@ -1,0 +1,131 @@
+# German pronunciation suite (129 sentences): category <TAB> input <TAB> target reading <TAB> live frontend output
+# Source: sprachchat/aussprache/faelle.tsv and textaufbereitung.fuer_sprache(), 14 Oct 2026.
+zahl	Ich habe 3 Äpfel.	Ich habe drei Äpfel.	Ich habe drei Äpfel.
+zahl	Es sind 1.250 Teilnehmer.	Es sind eintausendzweihundertfünfzig Teilnehmer.	Es sind eintausendzweihundertfünfzig Teilnehmer.
+zahl	Wir erwarten 2.500.000 Besucher.	Wir erwarten zwei Millionen fünfhunderttausend Besucher.	Wir erwarten zwei Millionen fünfhunderttausend Besucher.
+zahl	Die Nummer 42 gewinnt.	Die Nummer zweiundvierzig gewinnt.	Die Nummer zweiundvierzig gewinnt.
+zahl	Er ist 1,82 m groß.	Er ist ein Meter zweiundachtzig groß.	Er ist ein Meter zweiundachtzig groß.
+zahl	Das sind 1,5 Millionen Euro.	Das sind eins Komma fünf Millionen Euro.	Das sind eins Komma, fünf Millionen Euro.
+zahl	Etwa 50-60 Leute kamen.	Etwa fünfzig bis sechzig Leute kamen.	Etwa fünfzig bis sechzig Leute kamen.
+zahl	Das ist 3/4 voll.	Das ist drei Viertel voll.	Das ist drei Viertel voll.
+zahl	Das Spiel endete 2:1.	Das Spiel endete zwei zu eins.	Das Spiel endete zwei zu eins.
+zahl	Der 3. Platz ging an Anna.	Der dritte Platz ging an Anna.	Der dritte Platz ging an Anna.
+zahl	Lies Seite 7-9.	Lies Seite sieben bis neun.	Lies Seite sieben bis neun.
+zahl	Er ist #1 der Charts.	Er ist Nummer eins der Charts.	Er ist Nummer eins der Charts.
+zahl	Wir haben 24/7 offen.	Wir haben vierundzwanzig sieben offen.	Wir haben vierundzwanzig sieben offen.
+zahl	Version 3.2.1 ist da.	Version drei Punkt zwei Punkt eins ist da.	Version drei Punkt zwei Punkt eins ist da.
+zahl	Die Jahre 1990-1995 waren gut.	Die Jahre neunzehnhundertneunzig bis neunzehnhundertfünfundneunzig waren gut.	Die Jahre neunzehnhundertneunzig bis neunzehnhundertfünfundneunzig waren gut.
+zahl	Im Jahr 2026 kommt das.	Im Jahr zweitausendsechsundzwanzig kommt das.	Im Jahr zweitausendsechsundzwanzig kommt das.
+geld	Das kostet 19,99 €.	Das kostet neunzehn Euro neunundneunzig.	Das kostet neunzehn Euro neunundneunzig.
+geld	Das kostet 1.250,50 €.	Das kostet eintausendzweihundertfünfzig Euro fünfzig.	Das kostet eintausendzweihundertfünfzig Euro fünfzig.
+geld	Der Preis liegt bei 5 €.	Der Preis liegt bei fünf Euro.	Der Preis liegt bei fünf Euro.
+geld	Das kostet 5 $.	Das kostet fünf Dollar.	Das kostet fünf Dollar.
+geld	Überweis mir 12.000 € bis Freitag.	Überweis mir zwölftausend Euro bis Freitag.	Überweis mir zwölftausend Euro bis Freitag.
+geld	Wir haben 3,5 % Rabatt.	Wir haben drei Komma fünf Prozent Rabatt.	Wir haben drei Komma, fünf Prozent Rabatt.
+geld	Der Akku hat 80%.	Der Akku hat achtzig Prozent.	Der Akku hat achtzig Prozent.
+zeit	Um 15:30 Uhr geht es los.	Um fünfzehn Uhr dreißig geht es los.	Um fünfzehn Uhr dreißig geht es los.
+zeit	Wir treffen uns um 9 Uhr.	Wir treffen uns um neun Uhr.	Wir treffen uns um neun Uhr.
+zeit	Der Zug fährt um 7:05.	Der Zug fährt um sieben Uhr fünf.	Der Zug fährt um sieben Uhr fünf.
+zeit	Termin: Mo–Fr 9–17 Uhr.	Termin: Montag bis Freitag neun bis siebzehn Uhr.	Termin: Montag bis Freitag neun bis siebzehn Uhr.
+zeit	Es dauert 1,5 h.	Es dauert eins Komma fünf Stunden.	Es dauert eins Komma, fünf Stunden.
+zeit	Wir sehen uns in 2 Wochen.	Wir sehen uns in zwei Wochen.	Wir sehen uns in zwei Wochen.
+datum	Am 14.10.2026 ist der Termin.	Am vierzehnten Oktober zweitausendsechsundzwanzig ist der Termin.	Am vierzehnten Oktober zweitausendsechsundzwanzig ist der Termin.
+datum	Am 3.5. hat sie Geburtstag.	Am dritten Mai hat sie Geburtstag.	Am dritten Mai hat sie Geburtstag.
+datum	Die Frist endet am 31.12.	Die Frist endet am einunddreißigsten Dezember.	Die Frist endet am einunddreißigsten Dezember.
+datum	Heute ist der 1. Januar.	Heute ist der erste Januar.	Heute ist der erste Januar.
+datum	Im Jahr 1989 fiel die Mauer.	Im Jahr neunzehnhundertneunundachtzig fiel die Mauer.	Im Jahr neunzehnhundertneunundachtzig fiel die Mauer.
+telefon	Ruf mich unter 0911 123456 an.	Ruf mich unter null neun eins eins, eins zwei drei vier fünf sechs an.	Ruf mich unter null neun eins eins, eins zwei drei vier fünf sechs an.
+telefon	Meine Nummer ist +49 170 1234567.	Meine Nummer ist plus vier neun, eins sieben null, eins zwei drei vier fünf sechs sieben.	Meine Nummer ist plus vier neun, eins sieben null, eins zwei drei vier fünf sechs sieben.
+telefon	Die PLZ ist 90402.	Die Postleitzahl ist neun null vier null zwei.	Die Postleitzahl ist neun null vier null zwei.
+telefon	Er wohnt in 01067 Dresden.	Er wohnt in null eins null sechs sieben Dresden.	Er wohnt in null eins null sechs sieben Dresden.
+einheit	Die Strecke ist 12,5 km lang.	Die Strecke ist zwölf Komma fünf Kilometer lang.	Die Strecke ist zwölf Komma, fünf Kilometer lang.
+einheit	Es hat 230 V und 16 A.	Es hat zweihundertdreißig Volt und sechzehn Ampere.	Es hat zweihundertdreißig Volt und sechzehn Ampere.
+einheit	Wir fahren mit 120 km/h.	Wir fahren mit einhundertzwanzig Kilometer pro Stunde.	Wir fahren mit einhundertzwanzig Kilometer pro Stunde.
+einheit	Es ist -5 °C kalt.	Es ist minus fünf Grad Celsius kalt.	Es ist minus fünf Grad Celsius kalt.
+einheit	Die Datei ist 2,4 GB groß.	Die Datei ist zwei Komma vier Gigabyte groß.	Die Datei ist zwei Komma, vier Gigabyte groß.
+einheit	Ich habe 32 GB RAM.	Ich habe zweiunddreißig Gigabyte Ramm.	Ich habe zweiunddreißig Gigabyte Ramm.
+einheit	Die Temperatur ist 21,5°C.	Die Temperatur ist einundzwanzig Komma fünf Grad Celsius.	Die Temperatur ist einundzwanzig Komma, fünf Grad Celsius.
+einheit	Ich brauche 2 x 3 m Stoff.	Ich brauche zwei mal drei Meter Stoff.	Ich brauche zwei mal drei Meter Stoff.
+abk	Das ist z. B. so.	Das ist zum Beispiel so.	Das ist zum Beispiel so.
+abk	Bitte usw. beachten.	Bitte und so weiter beachten.	Bitte und so weiter beachten.
+abk	Das gilt ggf. auch morgen.	Das gilt gegebenenfalls auch morgen.	Das gilt gegebenenfalls auch morgen.
+abk	Das ist ok.	Das ist okeh.	Das ist okeh.
+abk	Siehe § 5 BGB.	Siehe Paragraf fünf beh geh beh.	Siehe Paragraf fünf beh geh beh.
+abk	Die Firma ist eine GmbH.	Die Firma ist eine geh emm beh hah.	Die Firma ist eine geh emm beh hah.
+akronym	Schick mir das PDF.	Schick mir das peh deh eff.	Schick mir das peh deh eff.
+akronym	Die WTS-Liste ist fertig.	Die weh teh ess Liste ist fertig.	Die weh teh ess-Liste ist fertig.
+akronym	Die KI läuft auf der GPU.	Die kah ih läuft auf der geh peh uh.	Die kah ih läuft auf der geh peh uh.
+akronym	Das kommt mit DHL.	Das kommt mit deh hah ell.	Das kommt mit deh hah ell.
+akronym	Die ARD und das ZDF berichten.	Die ah err deh und das zett deh eff berichten.	Die ah err deh und das zett deh eff berichten.
+akronym	Wir nutzen die API.	Wir nutzen die ah peh ih.	Wir nutzen die ah peh ih.
+akronym	Steck den USB-Stick ein.	Steck den uh ess beh Stick ein.	Steck den uh ess beh-Stick ein.
+akronym	Die EU und die USA verhandeln.	Die eh uh und die uh ess ah verhandeln.	Die eh uh und die uh ess ah verhandeln.
+akronym	Er arbeitet in der IT.	Er arbeitet in der ih teh.	Er arbeitet in der ih teh.
+akronym	Die SMS kam an.	Die ess emm ess kam an.	Die ess emm ess kam an.
+akronym	Ruf den CEO an.	Ruf den zeh eh oh an.	Ruf den zeh eh oh an.
+akronym	Das MP3 ist kaputt.	Das emm peh drei ist kaputt.	Das emm peh drei ist kaputt.
+akronym	Ich schicke dir die URL.	Ich schicke dir die uh err ell.	Ich schicke dir die uh err ell.
+akronym	Das HTML und CSS passt.	Das hah teh emm ell und zeh ess ess passt.	Das hah teh emm ell und zeh ess ess passt.
+akronym	Der PC startet neu.	Der peh zeh startet neu.	Der peh zeh startet neu.
+akronym	Lade die PDFs hoch.	Lade die peh deh effs hoch.	Lade die peh deh effs hoch.
+akronym	Der ADAC hilft.	Der ah deh ah zeh hilft.	Der ah deh ah zeh hilft.
+akronym	Das regelt die DSGVO.	Das regelt die deh ess geh fau oh.	Das regelt die deh ess geh fau oh.
+akronym	Nimm den ICE nach Berlin.	Nimm den ih zeh eh nach Berlin.	Nimm den ih zeh eh nach Berlin.
+akronym	Das KI-Modell lernt.	Das kah ih Modell lernt.	Das kah ih-Modell lernt.
+wortakronym	Die NASA plant eine Mission.	Die Nasa plant eine Mission.	Die Nasa plant eine Mission.
+wortakronym	Die NATO tagt.	Die Nahto tagt.	Die Nahto tagt.
+wortakronym	Der TÜV hat geprüft.	Der Tüff hat geprüft.	Der Tüff hat geprüft.
+wortakronym	Die PIN ist geheim.	Die Pinn ist geheim.	Die Pinn ist geheim.
+wortakronym	Bitte JSON verwenden.	Bitte Dschejsen verwenden.	Bitte Dschejsen verwenden.
+wortakronym	Wir brauchen WLAN.	Wir brauchen weh lan.	Wir brauchen Weh-Lan.
+wortakronym	Mein Handy hat iOS 18.	Mein Handy hat ei oh ess achtzehn.	Mein Handy hat ei oh ess achtzehn.
+wortakronym	Die UNESCO schützt das.	Die Unesko schützt das.	Die Unesko schützt das.
+grosswort	Das ist NICHT gut.	Das ist nicht gut.	Das ist NICHT gut.
+grosswort	ACHTUNG: Glatteis!	Achtung: Glatteis!	ACHTUNG: Glatteis!
+grosswort	Das ist UNBEDINGT wichtig.	Das ist unbedingt wichtig.	Das ist UNBEDINGT wichtig.
+grosswort	BITTE SOFORT MELDEN.	Bitte sofort melden.	BITTE SOFORT MELDEN.
+buchstabe	Wir brauchen Plan B.	Wir brauchen Plan beh.	Wir brauchen Plan beh.
+buchstabe	Nimm Vitamin C.	Nimm Vitamin zeh.	Nimm Vitamin zeh.
+buchstabe	Gleis 4 B ist frei.	Gleis vier beh ist frei.	Gleis vier beh ist frei.
+formel	Es gilt a² + b² = c².	Es gilt a hoch zwei plus b hoch zwei gleich c hoch zwei.	Es gilt ah hoch zwei plus beh hoch zwei gleich zeh hoch zwei.
+formel	Die Formel $E = mc^2$ ist berühmt.	Die Formel eh gleich emm zeh hoch zwei ist berühmt.	Die Formel eh gleich emm zeh hoch zwei ist berühmt.
+formel	√2 ist irrational.	Wurzel aus zwei ist irrational.	 Wurzel aus zwei ist irrational.
+formel	Es gilt x ≤ 5.	Es gilt iks kleiner gleich fünf.	Es gilt iks kleiner gleich fünf.
+formel	Berechne 5 + 3 = 8.	Berechne fünf plus drei gleich acht.	Berechne fünf plus drei gleich acht.
+formel	Das Ergebnis ist 10 - 4 = 6.	Das Ergebnis ist zehn minus vier gleich sechs.	Das Ergebnis ist zehn minus vier gleich sechs.
+formel	$\frac{1}{2}$ davon.	eins durch zwei davon.	 eins durch zwei davon.
+formel	π ist ungefähr 3,14.	Pi ist ungefähr drei Komma eins vier.	 Pi ist ungefähr drei Komma, eins vier.
+formel	Der Winkel α beträgt 30°.	Der Winkel Alpha beträgt dreißig Grad.	Der Winkel Alpha beträgt dreißig Grad.
+formel	2^10 = 1024	zwei hoch zehn gleich eintausendvierundzwanzig	zwei hoch zehn gleich eintausendvierundzwanzig.
+formel	Es gilt x ≠ y.	Es gilt iks ungleich üpsilon.	Es gilt iks ungleich üpsilon.
+formel	Die Toleranz ist ±5 %.	Die Toleranz ist plus minus fünf Prozent.	Die Toleranz ist plus minus fünf Prozent.
+formel	Es gilt f(x) = 3x + 2.	Es gilt eff von iks gleich drei iks plus zwei.	Es gilt eff von iks gleich drei iks plus zwei.
+formel	Es gilt Δt = 0,5 s.	Es gilt Delta teh gleich null Komma fünf Sekunden.	Es gilt Delta teh gleich null Komma, fünf Sekunden.
+formel	Die Fläche ist A = π r².	Die Fläche ist ah gleich Pi err hoch zwei.	Die Fläche ist ah gleich Pi err hoch zwei.
+formel	Es gilt 3 * 4 = 12.	Es gilt drei mal vier gleich zwölf.	Es gilt drei mal vier gleich zwölf.
+formel	Es gilt 12 / 4 = 3.	Es gilt zwölf durch vier gleich drei.	Es gilt zwölf durch vier gleich drei.
+formel	Es gilt 5 > 3 und 2 < 4.	Es gilt fünf größer als drei und zwei kleiner als vier.	Es gilt fünf größer als drei und zwei kleiner als vier.
+symbol	Tom & Jerry kommen.	Tom und Jerry kommen.	Tom und Jerry kommen.
+symbol	Schreib an info@eigenhand.dev.	Schreib an info at eigenhand Punkt dev.	Schreib an info at eigenhand Punkt dev.
+symbol	Geh auf https://eigenhand.dev/srv.	Geh auf eigenhand Punkt dev Schrägstrich ess err fau.	Geh auf eigenhand Punkt dev Schrägstrich ess err fau.
+symbol	Schau auf www.tagesschau.de nach.	Schau auf weh weh weh Punkt tagesschau Punkt deh eh nach.	Schau auf weh weh weh Punkt tagesschau Punkt deh eh nach.
+symbol	Starte server.py neu.	Starte server Punkt Python neu.	Starte server Punkt Python neu.
+symbol	Das ist ein 1:1-Ersatz.	Das ist ein eins zu eins Ersatz.	Das ist ein eins zu eins-Ersatz.
+symbol	Das kostet ca. 20 € pro Std.	Das kostet circa zwanzig Euro pro Stunde.	Das kostet circa zwanzig Euro pro Stunde.
+englisch	Der Download ist fertig.	Der Download ist fertig.	Der Download ist fertig.
+englisch	Ich habe ein Update gemacht.	Ich habe ein Update gemacht.	Ich habe ein Update gemacht.
+englisch	Das Meeting ist verschoben.	Das Meeting ist verschoben.	Das Meeting ist verschoben.
+alltag	Du hast morgen um 10:15 Uhr einen Termin beim Zahnarzt in der Königstraße 12.	Du hast morgen um zehn Uhr fünfzehn einen Termin beim Zahnarzt in der Königstraße zwölf.	Du hast morgen um zehn Uhr fünfzehn einen Termin beim Zahnarzt in der Königstraße zwölf.
+alltag	Die Stromrechnung über 87,40 € ist am 15.11. fällig.	Die Stromrechnung über siebenundachtzig Euro vierzig ist am fünfzehnten November fällig.	Die Stromrechnung über siebenundachtzig Euro vierzig ist am fünfzehnten November fällig.
+alltag	Draußen sind 7 °C, bis 18 Uhr regnet es zu 80 %.	Draußen sind sieben Grad Celsius, bis achtzehn Uhr regnet es zu achtzig Prozent.	Draußen sind sieben Grad Celsius, bis achtzehn Uhr regnet es zu achtzig Prozent.
+alltag	Ich habe dir das PDF per Mail an chris@example.de geschickt.	Ich habe dir das peh deh eff per Mail an chris at example Punkt deh eh geschickt.	Ich habe dir das peh deh eff per Mail an chris at example Punkt deh eh geschickt.
+alltag	Die GPU läuft mit 87 % Last bei 65 °C.	Die geh peh uh läuft mit siebenundachtzig Prozent Last bei fünfundsechzig Grad Celsius.	Die geh peh uh läuft mit siebenundachtzig Prozent Last bei fünfundsechzig Grad Celsius.
+alltag	Dein Paket von DHL kommt zwischen 14 und 16 Uhr.	Dein Paket von deh hah ell kommt zwischen vierzehn und sechzehn Uhr.	Dein Paket von deh hah ell kommt zwischen vierzehn und sechzehn Uhr.
+buchstabe	Wir fahren mit der U-Bahn.	Wir fahren mit der uh Bahn.	Wir fahren mit der U-Bahn.
+buchstabe	Die S-Bahn kommt.	Die ess Bahn kommt.	Die S-Bahn kommt.
+buchstabe	Schick mir eine E-Mail.	Schick mir eine E-Mail.	Schick mir eine E-Mail.
+buchstabe	Das T-Shirt ist blau.	Das T-Shirt ist blau.	Das T-Shirt ist blau.
+formel	Es gilt E = m · c².	Es gilt eh gleich emm mal zeh hoch zwei.	Es gilt eh gleich emm mal zeh hoch zwei.
+formel	Die Gerade y = 2x - 1 steigt.	Die Gerade üpsilon gleich zwei iks minus eins steigt.	Die Gerade üpsilon gleich zwei iks minus eins steigt.
+zahl	Wir haben 0,5 Liter.	Wir haben null Komma fünf Liter.	Wir haben null Komma, fünf Liter.
+zahl	Python 3.12 ist installiert.	Python drei Punkt zwölf ist installiert.	Python drei Punkt zwölf ist installiert.

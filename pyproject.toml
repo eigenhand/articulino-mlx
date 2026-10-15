@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "articulino-mlx"
+version = "1.0.0"
+description = "Articulino on MLX: small, fast German and English text to speech with zero-shot voice cloning for Apple silicon"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.10"
+authors = [{ name = "eigenhand" }]
+keywords = ["text-to-speech", "tts", "german", "english", "voice-cloning", "flow-matching", "mlx", "apple-silicon"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: MacOS",
+    "Topic :: Multimedia :: Sound/Audio :: Speech",
+    "Natural Language :: German",
+    "Natural Language :: English",
+]
+dependencies = [
+    "mlx>=0.22; sys_platform == 'darwin'",
+    "mlx[cpu]>=0.22; sys_platform == 'linux'",
+    "numpy>=1.24",
+    "soundfile>=0.12",
+    "num2words>=0.5.14,<0.6",
+]
+
+[project.optional-dependencies]
+hub = ["huggingface_hub>=0.20"]
+test = ["pytest>=7"]
+
+[project.urls]
+"Model card" = "https://huggingface.co/eigenhand/Articulino-DE-EN-Realtime-Stream-TTS-MLX"
+
+[project.scripts]
+articulino-mlx = "articulino_mlx.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"articulino_mlx.frontend" = ["data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "slow: loads the full model or runs whole sentences",
+]
