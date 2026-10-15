@@ -12,7 +12,7 @@ Pro with M3 Pro): all tests passed, 152× real time with fp16, the whole run too
 - This repository: `git clone https://github.com/eigenhand/articulino-mlx`.
 - The weights: by default the script downloads them from
   [eigenhand/Articulino-DE-EN-Realtime-Stream-TTS-MLX](https://huggingface.co/eigenhand/Articulino-DE-EN-Realtime-Stream-TTS-MLX)
-  (while that repository is private: `hf auth login`, or set `HF_TOKEN`); or pass a local folder with the
+  or pass a local folder with the
   subfolders `fp32/ fp16/ q8/`.
 
 ## Run it

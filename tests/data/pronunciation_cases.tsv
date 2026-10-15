@@ -1,5 +1,5 @@
-# German pronunciation suite (129 sentences): category <TAB> input <TAB> target reading <TAB> live frontend output
-# Source: sprachchat/aussprache/faelle.tsv and textaufbereitung.fuer_sprache(), 14 Oct 2026.
+# German pronunciation suite (129 sentences): category <TAB> input <TAB> target reading <TAB> output of the original frontend
+# Source: the pronunciation test bench of the original service, 14 Oct 2026.
 zahl	Ich habe 3 Äpfel.	Ich habe drei Äpfel.	Ich habe drei Äpfel.
 zahl	Es sind 1.250 Teilnehmer.	Es sind eintausendzweihundertfünfzig Teilnehmer.	Es sind eintausendzweihundertfünfzig Teilnehmer.
 zahl	Wir erwarten 2.500.000 Besucher.	Wir erwarten zwei Millionen fünfhunderttausend Besucher.	Wir erwarten zwei Millionen fünfhunderttausend Besucher.

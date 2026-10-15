@@ -128,5 +128,5 @@ float32 noise above); building blocks ~1e-5 or better.
 ## Open points
 
 - The repeat-on-broken-output guard of the C++ and ONNX engines (seed + 1) is missing, as in the PyTorch package.
-- `tests/data/radiov.wav` is the voice used in all tests; its source and consent have to be settled before the
-  repository is public.
+- `tests/data/radiov.wav`, the voice used in all tests, is a synthetic voice made from the author's own studio recording
+  (with a radio-like effect), published with his consent.
